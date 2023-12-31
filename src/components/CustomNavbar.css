@@ -1,0 +1,43 @@
+/* CustomNavbar.css */
+/* Modify the colors and styles according to your brand */
+
+.navbar {
+    background-color: #3498db; /* Primary Color: Blue */
+}
+
+.navbar-expand-lg .navbar-brand {
+    color: #e74c3c; /* Secondary Color: Red */
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.brand-name {
+    /* Additional styles for the brand name, if needed */
+}
+
+.navbar-nav .nav-link {
+    color: #ffffff; /* White text for links */
+}
+
+.navbar-toggler-icon {
+    color: #ffffff; /* White color for the hamburger menu icon */
+}
+
+/* Hamburger menu styles for mobile devices */
+.navbar-expanded .navbar-toggler-icon {
+    color: #e74c3c; /* Secondary Color: Red */
+}
+
+.navbar-expanded .navbar-collapse {
+    background-color: #3498db; /* Primary Color: Blue */
+}
+
+.navbar-expanded .navbar-nav .nav-link {
+    color: #e74c3c; /* Secondary Color: Red */
+}
+
+.navbar-expanded .navbar-toggler-icon {
+    border-color: #e74c3c; /* Secondary Color: Red */
+}
+
+/* Add any additional custom styles as needed */
